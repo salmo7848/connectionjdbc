@@ -6,9 +6,9 @@ import java.sql.DriverManager;
 
 public class Connectors {
 	
-	public static final String USERNAME = " ";
+	public static final String USERNAME = "Usuario";
 	
-	public static final String PASSWORD = " ";
+	public static final String PASSWORD = "Senha_do_bd";
 	
 	public static final String DATABASE_URL = "jdbc:mysql//localhost:3306/Nome_do_Banco";
 	
