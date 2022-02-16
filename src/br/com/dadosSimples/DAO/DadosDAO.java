@@ -7,7 +7,7 @@ import java.sql.PreparedStatement;
 import br.com.dadosSimples.connect.Connectors;
 import br.com.dadosSimples.model.Complements;
 
-public class DAO {
+public class DadosDAO {
 	
 	public void save(Complements compls) {
 	
@@ -23,7 +23,7 @@ public class DAO {
 		
 		pstm.setString(1, compls.getNome());
 		pstm.setString(2, compls.getEmail());
-		pstm.setInt(3, compls.getTelefone());
+		pstm.setString(3, compls.getTelefone());
 		pstm.setDate(4, new Date(compls.getDataCad().getTime()));
 		
 		pstm.execute();

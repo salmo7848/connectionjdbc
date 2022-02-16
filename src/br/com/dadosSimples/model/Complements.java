@@ -6,7 +6,7 @@ public class Complements {
 	
 	private String nome;
 	private String email;
-	private int telefone;
+	private String telefone;
 	private Date data;
 	
 	public String getNome(){
@@ -25,11 +25,11 @@ public class Complements {
 		this.email = email;
 	}
 	
-	public int getTelefone() {
+	public String getTelefone() {
 		return telefone;
 	}
 	
-	public void setTelefone(int telefone) {
+	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
 	
